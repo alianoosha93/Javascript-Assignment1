@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment 1</title>
+</head>
+<scrip> 
+<!-- // 1: <----------Write a script to greet your website visitor using JS alert box. (Welcome to  Our Website)---------> -->
+  <!-- // alert('Welcome to  Our Website'); -->
+<!-- //2:<-------- Write a script to display message on your web page. (Error! Please Enter a valid password)------> -->
+
+    <!-- //  function verifyPassword() {
+    //   var pw = document.getElementById("pswd").value;
+      // check empty password field
+      // if(pw == "") {
+      //    document.getElementById("message").innerHTML = "**Fill the password please!";
+      //    return false;
+      //  }
+     
+      //minimum password length validation
+      // if(pw.length < 8) {
+      //    alert("Error! Please Enter a valid password").innerHTML = "**(Error! Please Enter a valid password)";
+      //     return false;
+      //  }
+    
+     //maximum length of password validation
+    //    if(pw.length > 15) {
+    //        alert("Error! Please Enter a valid password")
+    //      return false;
+    //    } else {
+    //       alert("Password is correct");
+   
+    //    }
+    //  }
+
+    // <-----3: Write a script to display message on your web page: (Hint : Use line break)---->
+    <!-- //  alert('Hi\n\nHow are you');
+
+    // <------4 : Write a script to display messages in sequence (3 Alerts)------>
+    //  alert('hi'); alert('how are you'); -->
+
+<!-- // 7:Declare a variable called username
+    //  var username;
+
+// <-----8:Declare a variable called myName & assign to it a string that represents your Full Name----->
+<!-- //  var first_name = 'Ariba';
+//   var last_name = 'Ali Ansari';
+//   alert(first_name+" " + last_name); -->
+
+<!-- // <-----9: Write script to ----->
+<!-- //  var title_message;
+//  var title_message= 'Hello world';
+//  alert(title_message); --> -->
+
+<!-- // <--------10: Student bio data ---------> -->
+<!-- //  Array to store multiple students' bio data
+//  let students = [
+//      { name: "Ariba", age: 20, gender: "Female", course: "Computer Science", university: "ABC University" },
+//      { name: "Ali", age: 22, gender: "Male", course: "Engineering", university: "XYZ College" },
+//  ]; --> -->
+
+
+
+<!-- // Check if the visit count is stored in local storage
+//  if (localStorage.getItem('visitCount')) {
+//     visitCount = parseInt(localStorage.getItem('visitCount'));
+//  }
+
+// Increment the visit count
+//  visitCount++; -->
+
+<!-- // Store the updated visit count in local storage
+//  localStorage.setItem('visitCount', visitCount);
+
+// Display the number of visits on the web page
+//  document.write(`You have visited this site ${visitCount} times`);
+
+    //<------17:  Get visitor's name, product title, and quantity-------->
+<!-- //  const visitorName = "Murtaza";
+//  const productTitle = "T-shiryt";
+//  const quantity = 5;
+
+// Display message in the browser
+//  document.write(`${visitorName} ordered ${quantity} ${productTitle}(s) on XYZ Clothing store`) -->
+
+//  
+<!-- // <---------19: Declare 5 legal & 5 illegal variable names--------> -->
+<!-- // Legal variable names
+// let validVariable;
+// let myVar;
+// let anotherVariable123;
+// let _underscoreVar;
+// let $dollarSignVar;
+
+// Illegal variable names
+// let 123invalidVar; // SyntaxError: Unexpected token
+// let illegal-variable; // SyntaxError: Unexpected token
+// let !illegalVar; // SyntaxError: Unexpected token '!'
+// let var; // SyntaxError: Unexpected token 'var'
+// let my variable; // SyntaxError: Unexpected identifier -->
+
+<!-- // <-------------20: “Rules for naming JS variables--------------> -->
+<!-- // Check if a variable name is a JS reserved keyword
+// const reservedKeywords = [...JavaScriptReservedWords()];
+//   const testVariable = 'var';
+//   if (reservedKeywords.includes(testVariable)) {
+//     console.log(`${testVariable} is a reserved keyword.`);
+//   }
+
+//   function JavaScriptReservedWords() {
+//     const keywords = [
+//       // Add more reserved keywords here
+//       'var', 'let', 'const', 'function', 'if', 'else'
+//     ];
+//     return new Set(keywords);
+//   } -->
+ -->
+
+<!-- // <--------------21:Addition Program------------> -->
+
+
+// Take two numbers as input
+let num1 = 5;
+let num2 = 10;
+
+// Add the numbers and store the result in a new variable
+let sum = num1 + num2;
+
+    
+    </script>
+
+<style>
+      /* <!-- 5: Make use of alerts in your new/existing HTML & CSS project. --> */
+    /* .alert {
+      padding: 20px;
+      background-color: #0e8a19;
+      color: white;
+    }
+    
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .closebtn:hover {
+      color: black;
+    }  */
+
+    /* <-----------20:“Rules for naming JS variables---------------> */
+    /* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    color: #333;
+  }
+  .rule {
+    font-weight: bold;
+  } */
+  
+
+     
+    </style> 
+<body>
+    <!------2: Write a script to display message on your web page. (Error! Please Enter a valid password) ----->
+    
+     <!-- <center>
+        <h1 style="color:green">Password validation</h1>
+        <h3> Verify valid password Example </h3>
+        
+        <form onsubmit ="return verifyPassword()">
+        Enter Password
+        <td> Enter Password </td>
+        <input type = "password" id = "pswd" value = ""> 
+        <span id = "message" style="color:red"> </span> <br><br>
+        
+        Click to verify valid password 
+         <input type = "submit" value = "Submit"> 
+        
+         Click to reset fields -->
+         <!-- <button type = "reset" value = "Reset" >Reset</button>
+        </form>
+        </center>  --> 
+
+    
+
+<!---- 5: Make use of alerts in your new/existing HTML & CSS project. ---->
+
+         <!-- <h2>Alert Messages</h2>
+
+ <p>Click on the "x" symbol to close the alert message.</p> 
+ <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>  -->
+
+<!-- 12:.Write a script to display this in browser through JS. -->
+<!-- <h2>Javascript</h2>
+<p>Are you sure to use js.</p>
+
+<button type="button" onclick="document.write('welcom to javascript world')">click here</button> --> 
+
+<!-- <--------------20:“Rules for naming JS variables-------------------> 
+<!-- <h1>Rules for naming JS variables</h1>
+
+<p>Variable names can only contain <span class="rule">letters</span>, <span class="rule">numbers</span>, <span class="rule">underscores</span>, and <span class="rule">dollar signs</span>.<br>
+For example: <code>$my_1stVariable</code></p>
+
+<p>Variables must begin with a <span class="rule">letter</span>, <span class="rule">underscore</span>, or <span class="rule">dollar sign</span>.<br>
+For example: <code>$name</code>, <code>_name</code>, or <code>name</code></p>
+
+<p>Variable names are case <span class="rule">sensitive</span>.</p>
+
+<p>Variable names should not be JS <span class="rule">reserved keywords</span>.</p> -->
+
+</body>
+</html>
